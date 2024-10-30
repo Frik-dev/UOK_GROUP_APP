@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GROUP REGISTRATION</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <!-- Font Awesome CDN link for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="title"><span>Login Form</span></div>
+    <form action="/" METHOD="post">
+      <div class="row">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="Fullname" name="name" id="name" required />
+      </div>
+      <div class="row">
+        <i class="fas fa-lock"></i>
+        <input type="text" placeholder="Registration number" name="reg_no" id="reg_no" required />
+      </div>
+      <div class="row button">
+        <input type="submit" value="Submit" />
+      </div>
+
+    </form>
+  </div>
+<p id="copyright">All rights reserved &#xA9; 2024 Ishimwe Christian.</p>
+</body>
+</html>
